@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "variant": {
+    "id": "shadow-match",
+    "title": "Shadow Match",
+    "subtitle": "A little shadow adventure",
+    "grade": 1,
+    "objective": "Match each picture with its shadow.",
+    "assetBase": "./assets/cards/",
+    "menuGreeting": "Ready to find the matching shadows?",
+    "matchPrompt": "Find the picture and its shadow!",
+    "resultMessage": "You found every shadow match."
+  },
+  "play": {
+    "fixedPairs": true,
+    "shufflePairs": true,
+    "difficultyGroups": [
+      {
+        "id": "gentle",
+        "name": "Easy",
+        "description": "4 cards · 2 pairs",
+        "rounds": [
+          "1"
+        ]
+      },
+      {
+        "id": "growing",
+        "name": "Medium",
+        "description": "6 cards · 3 pairs",
+        "rounds": [
+          "2"
+        ]
+      },
+      {
+        "id": "clever",
+        "name": "Hard",
+        "description": "8 cards · 4 pairs",
+        "rounds": [
+          "3"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "picnic": false
+  },
+  "progression": {
+    "xp": {
+      "rewards": {
+        "practice": 14,
+        "challenge": 8
+      },
+      "completionBonus": 2
+    }
+  },
+  "worlds": {
+    "dream": {
+      "id": "dream",
+      "name": "Shadow Meadow",
+      "shortName": "Meadow",
+      "description": "Pictures and their silhouettes",
+      "skin": "meadow",
+      "menuTitleLines": [
+        "Shadow",
+        "Match"
+      ],
+      "menuKicker": "A little shadow adventure",
+      "cloudAsset": "sparky-seat-cloud-v1.webp",
+      "unlockMessage": "More shadow matches are ready!"
+    },
+    "seasons": {
+      "id": "seasons",
+      "name": "Shadow Parade",
+      "shortName": "Parade",
+      "description": "Pictures and their silhouettes",
+      "skin": "parade",
+      "menuTitleLines": [
+        "Shadow",
+        "Parade"
+      ],
+      "menuKicker": "A little shadow adventure",
+      "cloudAsset": "season-sparky-cloud-v1.webp",
+      "unlockMessage": "More shadow matches are ready!"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Shadow Lab",
+      "shortName": "Lab",
+      "description": "Pictures and their silhouettes",
+      "skin": "space-lab",
+      "menuTitleLines": [
+        "Shadow",
+        "Lab"
+      ],
+      "menuKicker": "A little shadow adventure",
+      "cloudAsset": "neon-sparky-cloud-v1.webp",
+      "unlockMessage": "More shadow matches are ready!"
+    }
+  },
+  "categories": {
+    "cube": {
+      "name": "Cube",
+      "detail": "The cube and its shadow have the same outline.",
+      "color": "#84b4da"
+    },
+    "cone": {
+      "name": "Cone",
+      "detail": "The cone and its shadow have the same outline.",
+      "color": "#84b4da"
+    },
+    "cylinder": {
+      "name": "Cylinder",
+      "detail": "The cylinder and its shadow have the same outline.",
+      "color": "#84b4da"
+    },
+    "ball": {
+      "name": "Ball",
+      "detail": "The ball and its shadow have the same outline.",
+      "color": "#84b4da"
+    },
+    "rabbit": {
+      "name": "Rabbit",
+      "detail": "The rabbit hand pose and its shadow have the same outline.",
+      "color": "#84b4da"
+    },
+    "dog": {
+      "name": "Dog",
+      "detail": "The dog hand pose and its shadow have the same outline.",
+      "color": "#84b4da"
+    },
+    "bird": {
+      "name": "Bird",
+      "detail": "The bird hand pose and its shadow have the same outline.",
+      "color": "#84b4da"
+    },
+    "deer": {
+      "name": "Deer",
+      "detail": "The deer hand pose and its shadow have the same outline.",
+      "color": "#84b4da"
+    }
+  },
+  "items": {
+    "source_cube": {
+      "name": "cube object",
+      "asset": "cube.svg",
+      "representation": "source",
+      "subject": "cube",
+      "collection": "objects"
+    },
+    "shadow_cube": {
+      "name": "cube shadow",
+      "asset": "shadow-cube.svg",
+      "representation": "shadow",
+      "subject": "cube",
+      "collection": "objects"
+    },
+    "source_cone": {
+      "name": "cone object",
+      "asset": "cone.svg",
+      "representation": "source",
+      "subject": "cone",
+      "collection": "objects"
+    },
+    "shadow_cone": {
+      "name": "cone shadow",
+      "asset": "shadow-cone.svg",
+      "representation": "shadow",
+      "subject": "cone",
+      "collection": "objects"
+    },
+    "source_cylinder": {
+      "name": "cylinder object",
+      "asset": "cylinder.svg",
+      "representation": "source",
+      "subject": "cylinder",
+      "collection": "objects"
+    },
+    "shadow_cylinder": {
+      "name": "cylinder shadow",
+      "asset": "shadow-cylinder.svg",
+      "representation": "shadow",
+      "subject": "cylinder",
+      "collection": "objects"
+    },
+    "source_ball": {
+      "name": "ball object",
+      "asset": "ball.svg",
+      "representation": "source",
+      "subject": "ball",
+      "collection": "objects"
+    },
+    "shadow_ball": {
+      "name": "ball shadow",
+      "asset": "shadow-ball.svg",
+      "representation": "shadow",
+      "subject": "ball",
+      "collection": "objects"
+    },
+    "source_rabbit": {
+      "name": "rabbit hand pose",
+      "asset": "rabbit.png",
+      "representation": "source",
+      "subject": "rabbit",
+      "collection": "hands"
+    },
+    "shadow_rabbit": {
+      "name": "rabbit shadow",
+      "asset": "shadow-rabbit.svg",
+      "representation": "shadow",
+      "subject": "rabbit",
+      "collection": "hands"
+    },
+    "source_dog": {
+      "name": "dog hand pose",
+      "asset": "dog.png",
+      "representation": "source",
+      "subject": "dog",
+      "collection": "hands"
+    },
+    "shadow_dog": {
+      "name": "dog shadow",
+      "asset": "shadow-dog.svg",
+      "representation": "shadow",
+      "subject": "dog",
+      "collection": "hands"
+    },
+    "source_bird": {
+      "name": "bird hand pose",
+      "asset": "bird.png",
+      "representation": "source",
+      "subject": "bird",
+      "collection": "hands"
+    },
+    "shadow_bird": {
+      "name": "bird shadow",
+      "asset": "shadow-bird.svg",
+      "representation": "shadow",
+      "subject": "bird",
+      "collection": "hands"
+    },
+    "source_deer": {
+      "name": "deer hand pose",
+      "asset": "deer.png",
+      "representation": "source",
+      "subject": "deer",
+      "collection": "hands"
+    },
+    "shadow_deer": {
+      "name": "deer shadow",
+      "asset": "shadow-deer.svg",
+      "representation": "shadow",
+      "subject": "deer",
+      "collection": "hands"
+    }
+  },
+  "rounds": [
+    {
+      "id": "1",
+      "title": "Objects and shadows",
+      "pairs": [
+        [
+          "cube",
+          "source_cube",
+          "shadow_cube"
+        ],
+        [
+          "cone",
+          "source_cone",
+          "shadow_cone"
+        ],
+        [
+          "cylinder",
+          "source_cylinder",
+          "shadow_cylinder"
+        ],
+        [
+          "ball",
+          "source_ball",
+          "shadow_ball"
+        ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Hand shadow fun",
+      "pairs": [
+        [
+          "rabbit",
+          "source_rabbit",
+          "shadow_rabbit"
+        ],
+        [
+          "dog",
+          "source_dog",
+          "shadow_dog"
+        ],
+        [
+          "bird",
+          "source_bird",
+          "shadow_bird"
+        ],
+        [
+          "deer",
+          "source_deer",
+          "shadow_deer"
+        ]
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Shadow challenge",
+      "pairs": [
+        [
+          "cube",
+          "source_cube",
+          "shadow_cube"
+        ],
+        [
+          "cone",
+          "source_cone",
+          "shadow_cone"
+        ],
+        [
+          "cylinder",
+          "source_cylinder",
+          "shadow_cylinder"
+        ],
+        [
+          "ball",
+          "source_ball",
+          "shadow_ball"
+        ],
+        [
+          "rabbit",
+          "source_rabbit",
+          "shadow_rabbit"
+        ],
+        [
+          "dog",
+          "source_dog",
+          "shadow_dog"
+        ],
+        [
+          "bird",
+          "source_bird",
+          "shadow_bird"
+        ],
+        [
+          "deer",
+          "source_deer",
+          "shadow_deer"
+        ]
+      ]
+    }
+  ]
+}
