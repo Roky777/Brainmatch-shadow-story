@@ -9,7 +9,8 @@
     "assetBase": "./assets/cards/",
     "menuGreeting": "Ready to find the matching shadows?",
     "matchPrompt": "Find the picture and its shadow!",
-    "resultMessage": "You found every shadow match."
+    "resultMessage": "You found every shadow match.",
+    "artVersion": "card-art-2"
   },
   "play": {
     "fixedPairs": true,
